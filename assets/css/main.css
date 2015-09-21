@@ -2731,6 +2731,10 @@
 		/* Header */
 
 			#header {
+				width: 20em;
+			}
+
+			#header.thanks {
 				width: 29em;
 			}
 
