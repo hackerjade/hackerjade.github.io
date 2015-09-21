@@ -2017,6 +2017,16 @@
 
 /* Image */
 
+	.resume {
+    border: 2px solid rgb(244, 244, 244);
+		transition: all .2s ease-in-out;
+	}
+
+	.resume:hover {
+    border: 2px solid rgb(244, 244, 244);
+		transform: scale(1.05);
+	}
+
 	.image {
 		border-radius: 5px;
 		border: 0;
