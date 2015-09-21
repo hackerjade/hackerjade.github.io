@@ -2630,7 +2630,7 @@
 
 	section#thanks {
 		background-image: url("../../images/IP1A3042short.jpeg");
-		background-position: top right;
+		background-position: top left;
 		background-repeat: no-repeat;
 		background-size: contain;
 		content: '';
@@ -2639,10 +2639,10 @@
 		width: 100%;
 	}
 
-	header.major h1.thanks {
+	/*header.major h1.thanks {
 		color: rgba(55, 163, 134, 0.96);
 		font-size: 8.5em;
-	}
+	}*/
 
 
 
@@ -2731,7 +2731,7 @@
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 29em;
 			}
 
 		/* Wrapper */
