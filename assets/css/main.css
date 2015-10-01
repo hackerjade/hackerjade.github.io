@@ -2020,11 +2020,17 @@
 	.resume {
     border: 2px solid rgb(244, 244, 244);
 		transition: all .2s ease-in-out;
+		background-image: url('../../images/resume-screen.png');
+		width: 656px;
+		height: 635px;
+	  border-radius: 7%;
+	  margin-top: 40px;
 	}
 
 	.resume:hover {
     border: 2px solid rgb(244, 244, 244);
 		transform: scale(1.05);
+		background-image: url('../../images/resume-screen-hover.png');
 	}
 
 	.image {
@@ -2630,20 +2636,20 @@
 	/* Thanks Page */
 
 	section#thanks {
-		background-image: url("../../images/IP1A3042short.jpeg");
+		background-image: url("../../images/IP1A3042long.png");
 		background-position: top left;
 		background-repeat: no-repeat;
-		background-size: contain;
+		background-size: cover;
 		content: '';
 		display: block;
 		height: 40em;
 		width: 100%;
 	}
 
-	/*header.major h1.thanks {
+	h1.thanks {
 		color: rgba(55, 163, 134, 0.96);
 		font-size: 8.5em;
-	}*/
+	}
 
 
 
@@ -2733,10 +2739,6 @@
 
 			#header {
 				width: 20em;
-			}
-
-			#header.thanks {
-				width: 29em;
 			}
 
 		/* Wrapper */
