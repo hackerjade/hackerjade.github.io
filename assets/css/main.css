@@ -2525,7 +2525,7 @@
 		.features article .inner {
 			display: inline-block;
 			vertical-align: middle;
-			width: 50%;
+			width: 47%;
 		}
 
 			.features article .inner > :last-child {
@@ -2665,7 +2665,7 @@
 		background-size: cover;
 		content: '';
 		display: block;
-		height: 34em;
+		height: 29em;
 		width: 100%;
 	}
 
